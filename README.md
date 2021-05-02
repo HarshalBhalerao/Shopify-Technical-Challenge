@@ -38,3 +38,5 @@ For this question you’ll need to use SQL. Follow this link to access the data 
       SELECT Employees.LastName, count(*) FROM Orders JOIN Employees ON Employees.EmployeeID=Orders.EmployeeID GROUP BY LastName ORDER BY COUNT(*) desc limit 1;
   -  Answer: Peacock  40
 - What product was ordered the most by customers in Germany?
+  - Query: SELECT Products.ProductName, OrderDetails.Quantity FROM Orders, OrderDetails JOIN Customers ON Orders.CustomerID=Customers.CustomerID JOIN Products ON OrderDetails.ProductID=Products.ProductID WHERE Country='Germany' ORDER BY OrderDetails.Quantity desc limit 1;
+  - Answer: Pâté chinois 120
