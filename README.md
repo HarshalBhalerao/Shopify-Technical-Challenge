@@ -23,7 +23,7 @@ On Shopify, we have exactly 100 sneaker shops, and each of these shops sells onl
 - What is its value?
   - The answer that I get from this is 357.92152221412965 dollars
 
-Link to the [code][https://github.com/HarshalBhalerao/Shopify-Technical-Challenge/blob/main/solution1.py]
+Link to the [code](https://github.com/HarshalBhalerao/Shopify-Technical-Challenge/blob/main/solution1.py)
 
 
 ## Question 2: 
