@@ -31,7 +31,7 @@ For this question you’ll need to use SQL. Follow this link to access the data 
 
 - How many orders were shipped by Speedy Express in total?
   - Query: 
-      SELECT count(*) FROM Orders JOIN Shippers ON Shippers.ShipperID=Orders.ShipperID where Shippers.ShipperName = "Speedy Express";
+     ``` SELECT count(*) FROM Orders JOIN Shippers ON Shippers.ShipperID=Orders.ShipperID where Shippers.ShipperName = "Speedy Express"; ```
   - Answer: 54
 - What is the last name of the employee with the most orders?
   -  Query: 
