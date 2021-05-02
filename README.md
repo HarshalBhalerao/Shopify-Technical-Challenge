@@ -1,14 +1,26 @@
 # Shopify-Technical-Challenge
-Data Science Intern Challenge 2021
 
 ## Question 1
 Given some sample data, write a program to answer the following: click here to access the required data set
 
 On Shopify, we have exactly 100 sneaker shops, and each of these shops sells only one model of shoe. We want to do some analysis of the average order value (AOV). When we look at orders data over a 30 day window, we naively calculate an AOV of $3145.13. Given that we know these shops are selling sneakers, a relatively affordable item, something seems wrong with our analysis. 
 
-Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
-What metric would you report for this dataset?
-What is its value?
+- Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
+- What metric would you report for this dataset?
+- What is its value?
 
 ### Solution:
+- Think about what could be going wrong with our calculation. Think about a better way to evaluate this data.
+  - Average order value(AOV) is calculated as total sales divided by the order count
+  - In the calculations above we have total sales divided by the count. To get the right solution we need to sum up all the orders and then use that as our order count.
+  - Formula: AOV = total sales / order Count 
 
+- What metric would you report for this dataset?
+  - Use the formula above
+  - Total sales will be the sum of all the order amounts.
+  - And order count will be the sum of all the total items.
+
+- What is its value?
+  - The answer that I get from this is 357.92152221412965 dollars
+
+Link to the code: 
