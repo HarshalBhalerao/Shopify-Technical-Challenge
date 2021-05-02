@@ -30,5 +30,6 @@ Link to the [code](https://github.com/HarshalBhalerao/Shopify-Technical-Challeng
 For this question you’ll need to use SQL. Follow this link to access the data set required for the challenge. Please use queries to answer the following questions. Paste your queries along with your final numerical answers below.
 
 - How many orders were shipped by Speedy Express in total?
+  - SELECT count(*) FROM Orders JOIN Shippers ON Shippers.ShipperID=Orders.ShipperID where Shippers.ShipperName = "Speedy Express";
 - What is the last name of the employee with the most orders?
 - What product was ordered the most by customers in Germany?
